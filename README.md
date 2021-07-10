@@ -1,1 +1,20 @@
-# day4-asignment-2
+# palindrome
+
+
+  s = "my name is ailia "
+  s1 = ""
+  s2 = ""
+  for(t of s){
+  
+    if(t != " "){
+      s1 = s1 + t 
+      s2 = t + s2
+    }
+    else{
+      if(s1 == s2){
+        console.log(s1)
+      }
+    s1 = ""
+    s2 = ""
+    }
+  }
